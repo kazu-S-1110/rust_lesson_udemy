@@ -1,6 +1,8 @@
-mod vector_module;
-mod tuple_module;
 mod array_module;
+mod tuple_module;
+mod vector_module;
+
+mod calc_module;
 
 fn main() {
     // 絶対パスで指定
@@ -8,5 +10,4 @@ fn main() {
     // 相対パスで指定（self::は省略できる）
     array_module::array_fn();
     vector_module::vector_fn();
-   
 }
