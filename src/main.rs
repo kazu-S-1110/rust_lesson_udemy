@@ -6,6 +6,7 @@ mod tuple_module;
 mod vector_module;
 
 mod calc_module;
+mod function;
 
 fn main() {
     // 絶対パスで指定
