@@ -1,12 +1,12 @@
 use string::string_fn;
 
 mod array_module;
+mod calc_module;
+mod function;
+mod if_section;
 mod string;
 mod tuple_module;
 mod vector_module;
-
-mod calc_module;
-mod function;
 
 fn main() {
     // 絶対パスで指定
@@ -14,5 +14,6 @@ fn main() {
     // 相対パスで指定（self::は省略できる）
     // array_module::array_fn();
     // vector_module::vector_fn();
-    string_fn();
+    // string_fn();
+    if_section::if_section()
 }
