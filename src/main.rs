@@ -4,6 +4,7 @@ mod array_module;
 mod calc_module;
 mod function;
 mod if_section;
+mod loop_section;
 mod match_section;
 mod string;
 mod tuple_module;
@@ -17,4 +18,5 @@ fn main() {
     // vector_module::vector_fn();
     // string_fn();
     // if_section::if_section()
+    loop_section::loop_section()
 }
