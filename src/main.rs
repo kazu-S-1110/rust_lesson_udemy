@@ -1,7 +1,7 @@
 use string::string_fn;
-
 mod array_module;
 mod calc_module;
+mod fizzbuzz;
 mod function;
 mod if_section;
 mod loop_section;
