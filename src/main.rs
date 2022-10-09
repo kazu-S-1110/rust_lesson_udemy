@@ -1,5 +1,6 @@
 use string::string_fn;
 mod array_module;
+mod basic_struct_sec;
 mod calc_module;
 mod fizzbuzz;
 mod function;
@@ -21,5 +22,6 @@ fn main() {
     // string_fn();
     // if_section::if_section()
     // loop_section::loop_section()
-    smart_pointer_section::smart_pointer_section();
+    // smart_pointer_section::smart_pointer_section();
+    basic_struct_sec::basic_struct_sec()
 }
