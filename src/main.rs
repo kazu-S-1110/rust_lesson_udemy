@@ -6,6 +6,8 @@ mod function;
 mod if_section;
 mod loop_section;
 mod match_section;
+mod ref_section;
+mod smart_pointer_section;
 mod string;
 mod tuple_module;
 mod vector_module;
@@ -18,5 +20,6 @@ fn main() {
     // vector_module::vector_fn();
     // string_fn();
     // if_section::if_section()
-    loop_section::loop_section()
+    // loop_section::loop_section()
+    smart_pointer_section::smart_pointer_section();
 }
