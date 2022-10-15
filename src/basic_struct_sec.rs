@@ -4,6 +4,12 @@ struct Rectangle {
     height: u32,
 }
 
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
+
 pub fn basic_struct_sec() {
     // 事前に値を宣言してインスタンス作成の時に入れ込むことも可能
     let height = 6;
@@ -18,4 +24,6 @@ pub fn basic_struct_sec() {
     let mut rentangle2 = Rectangle { width: 10, height };
     rentangle2.height = 10;
     println!("height: {}", rentangle2.height);
+
+    println!("area: {}", rentangle.area())
 }
