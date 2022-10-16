@@ -2,6 +2,7 @@ use string::string_fn;
 mod array_module;
 mod basic_struct_sec;
 mod calc_module;
+mod enum_sec;
 mod fizzbuzz;
 mod function;
 mod if_section;
@@ -23,5 +24,6 @@ fn main() {
     // if_section::if_section()
     // loop_section::loop_section()
     // smart_pointer_section::smart_pointer_section();
-    basic_struct_sec::basic_struct_sec()
+    // basic_struct_sec::basic_struct_sec()
+    enum_sec::enum_sec()
 }
