@@ -8,6 +8,7 @@ mod function;
 mod if_section;
 mod loop_section;
 mod match_section;
+mod optional_sec;
 mod ref_section;
 mod smart_pointer_section;
 mod string;
@@ -25,5 +26,6 @@ fn main() {
     // loop_section::loop_section()
     // smart_pointer_section::smart_pointer_section();
     // basic_struct_sec::basic_struct_sec()
-    enum_sec::enum_sec()
+    // enum_sec::enum_sec()
+    optional_sec::optional_sec()
 }
