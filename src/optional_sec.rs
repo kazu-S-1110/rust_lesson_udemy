@@ -11,6 +11,10 @@ pub fn optional_sec() {
 
     // 値を参照するにはtypeGuard的なものが必要
     match val {
+        // こういったことも可能
+        Some(1) => println!("value is 1"),
+        // matchした後にifで繋げられる
+        Some(x) if *x == 2 => println!("value exists:2"),
         Some(x) => println!("value exists:{}", x),
         None => println!("value is None"),
     }
