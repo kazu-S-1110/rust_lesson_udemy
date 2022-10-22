@@ -12,6 +12,7 @@ mod optional_sec;
 mod ref_section;
 mod smart_pointer_section;
 mod string;
+mod sum;
 mod tuple_module;
 mod vector_module;
 
@@ -27,5 +28,9 @@ fn main() {
     // smart_pointer_section::smart_pointer_section();
     // basic_struct_sec::basic_struct_sec()
     // enum_sec::enum_sec()
-    optional_sec::optional_sec()
+    // optional_sec::optional_sec()
+
+    println!("{}", sum::sum(5));
+    println!("{}", sum::sum(0));
+    println!("{}", sum::sum(10));
 }
