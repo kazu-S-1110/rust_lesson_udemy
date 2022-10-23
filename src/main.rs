@@ -15,6 +15,7 @@ mod string;
 mod sum;
 mod tuple_module;
 mod vector_module;
+use rand::Rng;
 
 fn main() {
     // 絶対パスで指定
@@ -29,8 +30,6 @@ fn main() {
     // basic_struct_sec::basic_struct_sec()
     // enum_sec::enum_sec()
     // optional_sec::optional_sec()
-
-    println!("{}", sum::sum(5));
-    println!("{}", sum::sum(0));
-    println!("{}", sum::sum(10));
+    let random_num = rand::thread_rng().gen_range(1..101);
+    println!("{}", random_num);
 }
