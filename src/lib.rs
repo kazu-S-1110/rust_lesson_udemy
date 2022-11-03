@@ -16,3 +16,11 @@ pub fn say_hello() {
 pub fn say_good_bye() {
     println!("Good bye")
 }
+
+pub mod sample_trait {
+    pub trait Shape {
+        fn calc_area(&self) -> f64;
+        fn calc_perimeter(&self) -> f64;
+        fn do_something();
+    }
+}
