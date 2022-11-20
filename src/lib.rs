@@ -47,4 +47,7 @@ pub mod sample_trait {
             println!("This is Circle func")
         }
     }
+    pub fn double_area(shape: &impl Shape) -> f64 {
+        shape.calc_area() * 2.0
+    }
 }

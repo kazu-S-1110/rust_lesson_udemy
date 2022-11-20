@@ -1,4 +1,4 @@
-use rust_lesson_udemy::sample_trait::{Circle, Rectangle, Shape};
+use rust_lesson_udemy::sample_trait::{double_area, Circle, Rectangle, Shape};
 
 fn main() {
     let rect = Rectangle {
@@ -8,6 +8,6 @@ fn main() {
 
     let circle = Circle { raidus: 5.0 };
 
-    println!("rect default is {}", rect.default_something());
-    println!("circle default is {}", circle.default_something());
+    println!("rect double area is {}", double_area(&rect));
+    println!("circle double area  is {}", double_area(&circle));
 }
